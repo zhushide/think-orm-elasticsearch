@@ -1,0 +1,27 @@
+{
+    "name": "zhushide/think-orm-elasticsearch",
+    "description": "think orm elasticsearch",
+    "type": "library",
+    "keywords": [
+        "thinkphp",
+        "orm",
+        "elasticsearch"
+    ],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "zhushide",
+            "email": "zhushide@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "topthink/think-orm": "^2.0",
+        "elasticsearch/elasticsearch": "^7.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\db\\": "src"
+        }
+    }
+}
